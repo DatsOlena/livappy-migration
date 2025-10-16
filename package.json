@@ -1,0 +1,25 @@
+{
+  "name": "livappy-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "trello-to-github.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node trello-to-github.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DatsOlena/livappy-migration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/DatsOlena/livappy-migration/issues"
+  },
+  "homepage": "https://github.com/DatsOlena/livappy-migration#readme",
+  "dependencies": {
+    "@octokit/rest": "^22.0.0"
+  }
+}
