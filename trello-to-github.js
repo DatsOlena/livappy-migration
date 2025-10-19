@@ -5,9 +5,9 @@
 import fs from "fs";
 import { Octokit } from "@octokit/rest";
 
-const owner = "Livappy"; // your GitHub username
-const repo = "Livappy"; // your target repo
-const trelloFile = "./livappy.json"; // Trello JSON export file in the same folder
+const owner = "GitHubUsername"; // your GitHub username
+const repo = "TargetRepo"; // your target repo
+const trelloFile = "./trelloBoard.json"; // Trello JSON export file in the same folder
 const stateFile = "./.migration-state.json"; // persistent state across runs
 const githubToken = process.env.GITHUB_TOKEN; // Set in terminal before running
 
